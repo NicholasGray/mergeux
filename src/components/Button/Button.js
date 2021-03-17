@@ -1,13 +1,22 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-
+//import { Button as ButtonM } from '../../Button';
  
-export const Button = () => {
+function Button(props) {
    return (
-      <button>test</button>
+      <button {...props}>
+        {props.children}
+      </button>
   );
 }
-// import * as PropTypes from 'prop-types';
+ 
+Button.propTypes = {
+   children: PropTypes.node,
+   size: PropTypes.oneOf(['small', 'large', 'medium'])
+}
+ 
+export default Button;
+//import * as PropTypes from 'prop-types';
 // import * as React from 'react';
 // import ButtonStyles from './Button.styles';
 

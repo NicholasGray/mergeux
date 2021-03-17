@@ -1,4 +1,5 @@
-import React from 'react'; 
+import React from 'react';
+
 const Button = (props) => (
    <button {...props}>
      {props.icon}
@@ -6,5 +7,4 @@ const Button = (props) => (
    </button>
  );
   
- export { Button as default };
- 
+ export { Button as default }; 

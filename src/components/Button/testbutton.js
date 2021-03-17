@@ -1,6 +1,10 @@
 import React from 'react'; 
-export const Testbutton = () => {
-   return (
-      <button>test</button>
-  );
-}
+const Button = (props) => (
+   <button {...props}>
+     {props.icon}
+     {props.children}
+   </button>
+ );
+  
+ export { Button as default };
+ 

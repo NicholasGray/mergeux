@@ -1,9 +1,12 @@
 import React from 'react';
 
 const Button = (props) => (
-   <button {...props}>
-     {props.icon}
-     {props.children}
+   <button
+      stretched={true}
+      type="error"
+      mode="filled"
+      size="s">
+      Merge!
    </button>
  );
   

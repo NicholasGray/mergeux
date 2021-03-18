@@ -1,9 +1,8 @@
-import * as PropTypes from 'prop-types';
 import * as React from 'react';
 import Template from './template';
 
 const Button = () => (
- <Template/> 
+  <Template />
 );
 
 /* eslint-disable sort-keys */

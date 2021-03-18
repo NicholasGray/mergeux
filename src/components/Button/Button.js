@@ -1,6 +1,5 @@
 import * as PropTypes from 'prop-types';
 import * as React from 'react';
-import { Template } from 'webpack';
 import Template from './template';
 
 const Button = (props) => (

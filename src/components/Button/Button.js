@@ -5,7 +5,7 @@ const Button = () => (
   <Template />
 );
 
-/* eslint-disable sort-keys test*/
+/* eslint-disable sort-keys */
 // Button.propTypes = {
 //   onClick: PropTypes.func,
 //   disabled: PropTypes.bool,

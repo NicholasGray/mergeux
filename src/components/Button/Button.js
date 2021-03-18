@@ -1,12 +1,13 @@
 import * as PropTypes from 'prop-types';
 import * as React from 'react';
-import ButtonStyles from './Button.styles';
+import { Template } from 'webpack';
+import Template from './template';
 
 const Button = (props) => (
-  <ButtonStyles {...props}>
+  <Template {...props}>
     {props.icon}
     {props.children}
-  </ButtonStyles>
+  </Template>
 );
 
 /* eslint-disable sort-keys */

@@ -1,20 +1,21 @@
 import * as React from 'react';
 import Template from './template';
+import PropTypes from 'prop-types';
 
 const Button = (prop) => (
   <Template {...prop} />
 );
 
 Button.propTypes = {
-    label: PropTypes.string,
-    size: PropTypes.oneOf(['small', 'medium', 'large']),
-  };
-  // /* eslint-enable sort-keys */
-  
-  Button.defaultProps = {  
-    size: 'small',   
-    label: 'Label',
-  };
+  label: PropTypes.string,
+  size: PropTypes.oneOf(['small', 'medium', 'large']),
+};
+/* eslint-enable sort-keys */
+
+Button.defaultProps = {
+  size: 'small',
+  label: 'Label',
+};
 
 /* eslint-disable sort-keys */
 // Button.propTypes = {

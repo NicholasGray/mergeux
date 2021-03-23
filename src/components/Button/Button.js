@@ -1,6 +1,6 @@
 import * as React from 'react';
-import Template from './template';
 import PropTypes from 'prop-types';
+import Template from './template';
 
 const Button = (prop) => (
   <Template {...prop} />

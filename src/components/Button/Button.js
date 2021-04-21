@@ -14,7 +14,7 @@ Button.propTypes = {
 
 Button.defaultProps = {
   size: 'small',
-  label: 'Label',
+  label: 'Test',
 };
 
 /* eslint-disable sort-keys */
